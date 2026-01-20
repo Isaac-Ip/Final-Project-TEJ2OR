@@ -6,7 +6,7 @@
  */
 
 // variables
-let neopixelStrip = neopixel.create(DigitalPin.P16, 4, NeoPixelMode.RGB)
+const neopixelStrip = neopixel.create(DigitalPin.P16, 4, NeoPixelMode.RGB)
 radio.setGroup(196)
 music.setVolume(255)
 
