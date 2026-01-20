@@ -7,7 +7,6 @@
 
 // variables
 let neopixelStrip = neopixel.create(DigitalPin.P16, 4, NeoPixelMode.RGB)
-const servoNumber1 = robotbit.Servos.S1
 radio.setGroup(196)
 music.setVolume(255)
 
